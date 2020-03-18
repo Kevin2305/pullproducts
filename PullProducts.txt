@@ -1,0 +1,14 @@
+egalaxy==https://shtktefg-qa.shdrapps.disney.com
+pricing==https://shtktefp-qa.shdrapps.disney.com/api/pricing
+auth==Basic NzA1MDpEMXNuZXkwMDE=
+plu==*
+startdate==2020-03-12
+enddate==2020-03-12
+customerid==169
+timeout==80
+SHTP01OLCET,SHOSTOUR18WA,SHTPP2OLRET,SHTP01OLRDQO1905,SHTPP2OLRET,SHTPP2OLCET,SHOSTOUR18WA
+
+NzA0OTpEMXNuZXkwMDE=
+
+
+R2FsYXN5czpEMXNuZXkwMDE=

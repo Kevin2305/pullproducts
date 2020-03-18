@@ -1,0 +1,17 @@
+<Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Header>
+		<SourceID>GAL</SourceID>
+		<MessageID>$messageid$</MessageID>
+		<MessageType>QueryCustomerItems</MessageType>
+		<TimeStamp>$timestamp$</TimeStamp>
+		<EchoData/>
+
+                <SystemFields/>
+	</Header>
+	<Body>
+		<QueryCustomerItems>
+			<CustomerID>$customerid$</CustomerID>
+			<UseSalesProgramPricing>YES</UseSalesProgramPricing>
+		</QueryCustomerItems>
+	</Body>
+</Envelope>

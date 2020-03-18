@@ -1,0 +1,26 @@
+<Envelope
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Header>
+		<SourceID>GAL</SourceID>
+		<MessageID>$messageid$</MessageID>
+		<MessageType>QueryEvents</MessageType>
+		<TimeStamp>$timestamp$</TimeStamp>
+		<EchoData/>
+
+                <SystemFields/>
+	</Header>
+	<Body>
+		<QueryEvents>
+			<EventRangeBeginDate>$startdate$</EventRangeBeginDate>
+			<EventRangeEndDate>$enddate$</EventRangeEndDate>
+			<Pricing>
+			   <SalesProgramID>0</SalesProgramID>
+			   <CustomerID>$customerid$</CustomerID>
+                           <Tickets> 
+                                $tickets$
+                           </Tickets>
+                        </Pricing>
+		</QueryEvents>
+	</Body>
+</Envelope>
